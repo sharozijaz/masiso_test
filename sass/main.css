@@ -51,7 +51,7 @@
     align-items: center;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) and (max-width: 720px) {
+@media (min-width: 320px) and (max-width: 480px) and (width: 720px) {
   .hero {
     height: 100vh;
     flex-direction: column;
