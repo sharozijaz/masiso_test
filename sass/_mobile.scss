@@ -17,6 +17,9 @@
     width: 6rem;
     height: auto;
   }
+  .steps__heading {
+    margin-left: -1.1rem;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -104,5 +107,8 @@
   }
   footer p {
     font-size: 1rem;
+  }
+  .steps__heading {
+    margin-left: 0;
   }
 }

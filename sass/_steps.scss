@@ -4,8 +4,12 @@
   text-align: center;
   padding: 2rem;
 }
+.steps__heading {
+  margin-left: -2rem;
+}
 .steps__heading h2 {
   font-size: 2rem;
+  text-align: center;
 }
 .steps__main {
   display: flex;

@@ -102,8 +102,13 @@
   padding: 2rem;
 }
 
+.steps__heading {
+  margin-left: -2rem;
+}
+
 .steps__heading h2 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .steps__main {
@@ -169,6 +174,10 @@ footer a {
   .steps__box img {
     width: 6rem;
     height: auto;
+  }
+
+  .steps__heading {
+    margin-left: -1.1rem;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {
@@ -272,5 +281,9 @@ footer a {
 
   footer p {
     font-size: 1rem;
+  }
+
+  .steps__heading {
+    margin-left: 0;
   }
 }/*# sourceMappingURL=main.css.map */
