@@ -156,6 +156,11 @@ footer a {
     text-align: center;
     align-items: center;
   }
+
+  .features__main--image img {
+    height: 23rem;
+    width: auto;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -210,7 +215,7 @@ footer a {
   }
 
   .features__main--image img {
-    height: 30rem;
+    height: 22rem;
     width: auto;
   }
 
