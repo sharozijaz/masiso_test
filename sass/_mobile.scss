@@ -7,13 +7,12 @@
     align-items: center;
   }
 }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 480px) and (max-width: 720px) {
   .hero {
     height: 100vh;
     flex-direction: column;
   }
   .hero__heading {
-    padding: 2rem;
     text-align: center;
     align-items: center;
   }
