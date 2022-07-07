@@ -99,6 +99,7 @@
   }
 
   .hero__heading {
+    padding: 2rem;
     text-align: center;
     align-items: center;
   }
