@@ -81,7 +81,7 @@
 }
 
 .features__main--box img {
-  width: 4rem;
+  width: 3rem;
 }
 
 .download__btns {
@@ -114,7 +114,7 @@
 }
 
 .steps__box img {
-  width: 10rem;
+  width: 6rem;
   height: auto;
 }
 
@@ -160,6 +160,15 @@ footer a {
   .features__main--image img {
     height: 23rem;
     width: auto;
+  }
+
+  .features__main--box img {
+    width: 3rem;
+  }
+
+  .steps__box img {
+    width: 6rem;
+    height: auto;
   }
 }
 @media (min-width: 320px) and (max-width: 480px) {

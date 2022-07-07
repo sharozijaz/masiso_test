@@ -10,6 +10,13 @@
     height: 23rem;
     width: auto;
   }
+  .features__main--box img {
+    width: 3rem;
+  }
+  .steps__box img {
+    width: 6rem;
+    height: auto;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -91,6 +98,7 @@
   .steps__box p {
     font-size: 1.4rem;
   }
+
   #numbered {
     display: none;
   }
