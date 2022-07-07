@@ -5,6 +5,7 @@
   background-color: black;
   color: white;
   height: 100vh;
+  overflow: hidden;
 }
 .hero__heading h1 {
   font-size: 4rem;
@@ -23,6 +24,7 @@
 .hero__buttons img:last-child {
   margin-left: 1rem;
 }
+
 .hero__image img {
   height: 37rem;
   width: auto;

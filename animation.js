@@ -1,6 +1,6 @@
 var tl = gsap.timeline();
 
-tl.from(".animate__hero", { duration: 2, x: 900, ease: "power4.out" });
+tl.from(".animate__hero", { duration: 2, x: 200, ease: "power4.out" });
 
 gsap.from(".left", {
   duration: 1,

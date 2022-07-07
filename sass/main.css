@@ -12,6 +12,7 @@
   background-color: black;
   color: white;
   height: 100vh;
+  overflow: hidden;
 }
 
 .hero__heading h1 {
@@ -43,6 +44,7 @@
 
 .features {
   padding: 2rem;
+  overflow: hidden;
 }
 
 .features-mobile-on {
