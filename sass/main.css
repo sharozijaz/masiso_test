@@ -53,6 +53,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
+    height: 100vh;
     flex-direction: column;
     padding-top: 2rem;
   }
