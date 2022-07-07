@@ -88,6 +88,8 @@
   align-items: center;
   display: flex;
   justify-content: center;
+  margin-top: -3rem;
+  margin-bottom: -2rem;
 }
 
 .download__btns img {
@@ -179,6 +181,11 @@ footer a {
   .steps__heading {
     margin-left: -1.1rem;
   }
+
+  .download__btns {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
@@ -256,6 +263,8 @@ footer a {
     align-items: center;
     display: flex;
     justify-content: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
   }
 
   .download__btns img {
