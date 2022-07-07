@@ -116,7 +116,6 @@
   .hero__buttons img {
     width: 7rem;
     height: auto;
-    padding-bottom: 2rem;
   }
 
   .hero__buttons img:last-child {
@@ -126,6 +125,7 @@
   .hero__image img {
     height: 35rem;
     width: auto;
+    padding-bottom: 2rem;
   }
 
   .features-mobile-off {
