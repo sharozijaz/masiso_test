@@ -182,6 +182,11 @@ footer a {
     margin-left: -1.1rem;
   }
 
+  .hero__buttons img {
+    width: 10rem;
+    height: auto;
+  }
+
   .download__btns {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
