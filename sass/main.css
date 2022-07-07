@@ -94,7 +94,7 @@
 }
 @media (min-width: 320px) and (max-width: 480px) {
   .hero {
-    height: 100vh;
+    height: 100%;
     flex-direction: column;
   }
 
