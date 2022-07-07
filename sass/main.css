@@ -116,6 +116,7 @@
   .hero__buttons img {
     width: 7rem;
     height: auto;
+    padding-bottom: 2rem;
   }
 
   .hero__buttons img:last-child {
