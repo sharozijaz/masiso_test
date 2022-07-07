@@ -82,6 +82,69 @@
   width: 4rem;
 }
 
+.download__btns {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.download__btns img {
+  margin: 0 1rem;
+  width: 10rem;
+}
+
+.steps {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+.steps__heading h2 {
+  font-size: 2rem;
+}
+
+.steps__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.steps__box img {
+  width: 10rem;
+  height: auto;
+}
+
+.steps__box p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+
+#numbered {
+  margin-right: 0.4rem;
+}
+
+footer {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer p {
+  font-size: 1.2rem;
+}
+
+.contact {
+  padding-right: 2rem;
+}
+
+footer a {
+  color: black;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) and (max-width: 991px) {
   .hero {
     flex-direction: column;
@@ -162,5 +225,36 @@
 
   .features__main--box img {
     width: 2rem;
+  }
+
+  .download__btns {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+
+  .download__btns img {
+    width: 8rem;
+    height: auto;
+  }
+
+  .steps__main {
+    flex-direction: column;
+  }
+
+  .steps__box {
+    margin-top: 2rem;
+  }
+
+  .steps__box p {
+    font-size: 1.4rem;
+  }
+
+  #numbered {
+    display: none;
+  }
+
+  footer p {
+    font-size: 1rem;
   }
 }/*# sourceMappingURL=main.css.map */

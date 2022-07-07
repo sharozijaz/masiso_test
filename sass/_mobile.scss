@@ -68,4 +68,29 @@
   .features__main--box img {
     width: 2rem;
   }
+  .download__btns {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .download__btns img {
+    // margin: 0 1rem;
+    width: 8rem;
+    height: auto;
+  }
+  .steps__main {
+    flex-direction: column;
+  }
+  .steps__box {
+    margin-top: 2rem;
+  }
+  .steps__box p {
+    font-size: 1.4rem;
+  }
+  #numbered {
+    display: none;
+  }
+  footer p {
+    font-size: 1rem;
+  }
 }

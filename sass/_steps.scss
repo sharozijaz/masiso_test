@@ -1,0 +1,27 @@
+.steps {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+.steps__heading h2 {
+  font-size: 2rem;
+}
+.steps__main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+.steps__box img {
+  width: 10rem;
+  height: auto;
+}
+.steps__box p {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+}
+#numbered {
+  margin-right: 0.4rem;
+}

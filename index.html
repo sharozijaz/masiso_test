@@ -8,6 +8,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,700&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
     <link rel="stylesheet" href="./sass/main.css" />
     <title>Masiso</title>
   </head>
@@ -21,7 +22,7 @@
           <img src="./assets/PlayStore.svg" alt="App Store" />
         </div>
       </div>
-      <div class="hero__image">
+      <div class="hero__image" class="animate__hero">
         <img src="./assets/squats_white.png" alt="App Image" />
       </div>
     </header>
@@ -31,7 +32,7 @@
         <h2>It’s time for a new max.</h2>
       </div>
       <div class="features__main">
-        <div class="features__main--left">
+        <div class="features__main--left left">
           <div class="features__main--box">
             <img src="./assets/list-images/brain-solid.svg" alt="Brain Icon" />
             <p>
@@ -63,7 +64,7 @@
         <div class="features__main--image">
           <img src="./assets/deadlifts_black.png" alt="Mobile" />
         </div>
-        <div class="features__main--right">
+        <div class="features__main--right right">
           <div class="features__main--box">
             <img
               src="./assets/list-images/chart-simple-solid.svg"
@@ -92,6 +93,17 @@
             <p>In-depth <br />analysis</p>
           </div>
         </div>
+      </div>
+      <div class="download__btns">
+        <a href="https://apps.apple.com/app/id1590255838" target="_blank">
+          <img src="./assets/app-store-badge.svg" alt="AppStore" />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=masiso.ai"
+          target="_blank"
+        >
+          <img src="./assets/google-play-badge.svg" alt="PlayStore" />
+        </a>
       </div>
     </main>
     <!-- Mobile On -->
@@ -163,6 +175,46 @@
       <div class="features__main--image">
         <img src="./assets/deadlifts_black.png" alt="Mobile" />
       </div>
+      <div class="download__btns">
+        <a href="https://apps.apple.com/app/id1590255838" target="_blank">
+          <img src="./assets/app-store-badge.svg" alt="AppStore" />
+        </a>
+        <a
+          href="https://play.google.com/store/apps/details?id=masiso.ai"
+          target="_blank"
+        >
+          <img src="./assets/google-play-badge.svg" alt="PlayStore" />
+        </a>
+      </div>
     </main>
+    <!-- Powered by AI -->
+    <main class="steps">
+      <div class="steps__heading">
+        <h3>Powered by AI</h3>
+      </div>
+      <div class="steps__main">
+        <div class="steps__box">
+          <img src="./assets/Record.svg" alt="Record" />
+          <p><span id="numbered">1.</span>Record lift</p>
+        </div>
+        <div class="steps__box">
+          <img src="./assets/Cloud.svg" alt="Cloud" />
+          <p><span id="numbered">2.</span>Upload video</p>
+        </div>
+        <div class="steps__box">
+          <img src="./assets/feedback.svg" alt="Record" />
+          <p><span id="numbered">3.</span>Get feedback</p>
+        </div>
+      </div>
+    </main>
+    <!-- Footer -->
+    <footer>
+      <!-- <img src="./assets/masiso_logo.png" alt="" /> -->
+      <a href="mailto:contact@masiso.ai"
+        ><p class="contact">Contact@masiso.ai</p></a
+      >
+      <a href="https://masiso.ai/terms"><p class="terms">Terms of Use</p></a>
+    </footer>
+    <script src="animation.js"></script>
   </body>
 </html>
